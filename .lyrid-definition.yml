@@ -1,0 +1,11 @@
+name: PerseusNocApp
+description: App Description
+modules:
+- name: ExporterModuleNocPromGo
+  language: go1.x
+  web: gin
+  description: Module description
+  functions:
+  - name: ExportersFunction
+    entry: entry.go
+    description: the entry point for the function
