@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"PerseusNocApp.ExporterModuleNocPromGo/db"
-	"PerseusNocApp.ExporterModuleNocPromGo/model"
 	"context"
+	"perseus.proxy/db"
+	"perseus.proxy/model"
 )
 
 func ListExporters() []model.ExporterEndpoint {

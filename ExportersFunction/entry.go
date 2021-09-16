@@ -1,15 +1,15 @@
 package ExportersFunction
 
 import (
-	"PerseusNocApp.ExporterModuleNocPromGo/cmd"
-	"PerseusNocApp.ExporterModuleNocPromGo/db"
-	"PerseusNocApp.ExporterModuleNocPromGo/model"
 	"log"
 	"net/http"
 	"os"
+	"perseus.proxy/cmd"
+	"perseus.proxy/db"
+	"perseus.proxy/model"
 
-	persapi "PerseusNocApp.ExporterModuleNocPromGo/api"
 	"github.com/gin-gonic/gin"
+	persapi "perseus.proxy/api"
 )
 
 // LyFnInputParams user fills up these parameters

@@ -1,4 +1,4 @@
-module PerseusNocApp.ExporterModuleNocPromGo
+module perseus.proxy
 
 go 1.15
 

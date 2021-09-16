@@ -1,12 +1,12 @@
 package api
 
 import (
-	"PerseusNocApp.ExporterModuleNocPromGo/cmd"
-	"PerseusNocApp.ExporterModuleNocPromGo/db"
-	"PerseusNocApp.ExporterModuleNocPromGo/model"
 	"errors"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"perseus.proxy/cmd"
+	"perseus.proxy/db"
+	"perseus.proxy/model"
 )
 
 func ListExporters(c *gin.Context) {

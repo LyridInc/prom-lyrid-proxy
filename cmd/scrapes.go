@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"PerseusNocApp.ExporterModuleNocPromGo/db"
-	"PerseusNocApp.ExporterModuleNocPromGo/model"
+	"perseus.proxy/db"
+	"perseus.proxy/model"
 	"time"
 )
 

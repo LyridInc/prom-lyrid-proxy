@@ -1,7 +1,7 @@
-name: PerseusNocApp
+name: perseus
 description: App Description
 modules:
-- name: ExporterModuleNocPromGo
+- name: proxy
   language: go1.x
   web: gin
   description: Module description

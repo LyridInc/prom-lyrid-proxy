@@ -1,11 +1,11 @@
 package api
 
 import (
-	"PerseusNocApp.ExporterModuleNocPromGo/cmd"
-	"PerseusNocApp.ExporterModuleNocPromGo/model"
 	"errors"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"perseus.proxy/cmd"
+	"perseus.proxy/model"
 )
 
 func GetScrapes(c *gin.Context) {

@@ -1,8 +1,8 @@
 package main
 
 import (
-	entry "PerseusNocApp.ExporterModuleNocPromGo/ExportersFunction"
 	"github.com/joho/godotenv"
+	entry "perseus.proxy/ExportersFunction"
 )
 
 // this function is not a part of the serverless and will not be processed by Lyrid,
